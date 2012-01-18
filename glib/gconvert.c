@@ -62,7 +62,6 @@
 #error GNU libiconv in use but included iconv.h not from libiconv
 #endif
 #if !defined(USE_LIBICONV_GNU) && defined (_LIBICONV_H)
-#error GNU libiconv not in use but included iconv.h is from libiconv
 #endif
 
 
