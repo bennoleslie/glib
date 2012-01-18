@@ -803,6 +803,7 @@ ms_librarian
 RANLIB
 NM
 WINDRES
+CARBON_FRAMEWORK
 OS_CARBON_FALSE
 OS_CARBON_TRUE
 OS_LINUX_FALSE
@@ -5222,6 +5223,7 @@ if test "x$glib_have_carbon" = "xyes"; then
 $as_echo "#define HAVE_CARBON 1" >>confdefs.h
 
   LDFLAGS="$LDFLAGS -framework Carbon"
+  CARBON_FRAMEWORK="-framework Carbon"
 fi
 
 { $as_echo "$as_me:${as_lineno-$LINENO}: checking for grep that handles long lines and -e" >&5
